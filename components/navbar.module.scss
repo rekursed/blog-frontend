@@ -1,0 +1,51 @@
+nav .favicon{
+  font-size: 1.3rem;
+}
+.favicon{
+  height: 50px;
+  width: auto;
+  min-width: 23px;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+.nav-container{
+  height: 23px;
+  width: 23px;
+  min-width: 23px;
+  margin-right: 1rem;
+  margin-bottom: 0;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+
+  max-width: 800px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.nav.scroll {
+  box-shadow: 1px 2px 18px rgba(0, 0, 0, .1);
+}
+
+nav .links{
+  display: flex;
+  align-items: center;
+}
+//.nav_item{
+//  display: flex;
+//  //text-align: center;
+//}
+
+@media (min-width: 620px) {
+  .nav .nav-container {
+    height: 160px;
+    padding: 0 2rem;
+  }
+}
