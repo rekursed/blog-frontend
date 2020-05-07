@@ -16,15 +16,10 @@ nav .favicon{
   margin-bottom: 0;
 }
 .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 3;
   width: 100%;
   background: #fff;
   display: flex;
   align-items: center;
-
   max-width: 800px;
   margin: auto;
   justify-content: space-between;
