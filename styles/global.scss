@@ -19,8 +19,9 @@
   letter-spacing: -.03rem;
 }
 
-.container{
-
+.nav-container{
+  display: flex;
+  justify-content: center;
 }
 
 .navbar-brand a{
@@ -29,3 +30,4 @@
 .navbar-item img {
   max-height: 3.75rem;
 }
+
