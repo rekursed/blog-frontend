@@ -25,7 +25,7 @@ class Navbar extends React.Component {
                     </div>
                     <div id="navBarLinks" className="navbar-menu">
                         <div className={"navbar-end " + navStyles.links}>
-                            <Link href={"/"}><a className="navbar-item">
+                            <Link href={"/about"}><a className="navbar-item">
                                 About
                             </a>
                             </Link>
