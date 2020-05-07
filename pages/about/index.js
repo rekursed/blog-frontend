@@ -152,7 +152,7 @@ class About extends React.Component {
 
             ],
             education:[{
-                institute
+                institute: "International Islamic University Chittagong"
             }]
         }
 
