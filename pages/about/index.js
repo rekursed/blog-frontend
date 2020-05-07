@@ -133,9 +133,27 @@ class About extends React.Component {
                         `coordinated team of web developers and designers to drive the reach of the business through SEO and Email Marketing`,
 
                     ]
+                },
+                {
+                    title: "Software Engineer",
+                    company: "Zeteq Systems",
+                    company_url: "https://zeteq.com/",
+                    location: "Dhaka, Bangladesh",
+                    start: "December 2013",
+                    end: "June 2014",
+                    techs: ["PHP", "Symfony", "Laravel", "MySQL", "Jquery", "Ecommerce"],
+                    description: `Zeteq is a small agency building ecommerce projects for independent traders`,
+                    highlight: [
+                        `PHP Ecommerce development with api Integration`,
+                        `Developed with Symfony and Laravel framework with angular, HTML, CSS in the frontend.`,
+                        `Worked in an agile scrum environment.`,
+                    ]
                 }
 
-            ]
+            ],
+            education:[{
+                institute
+            }]
         }
 
         return {bio};

@@ -12,7 +12,6 @@ class Home extends React.Component {
     static async getInitialProps({Component, ctx}) {
         let bio = {
             name: "Mohammad Rakibul Hassan",
-            abcd: "assd",
         }
 
         return {bio};
