@@ -117,24 +117,6 @@ class About extends React.Component {
                     ]
                 },
                 {
-                    title: "Ecommerce Developer",
-                    company: "Maz Accessories",
-                    company_url: "www.mazaccessories.com",
-                    location: "Aldgate, London",
-                    start: "September 2014",
-                    end: "May 2018",
-                    techs: ["PHP", "Magento", "AWS", "Odoo", "Jquery", "Email Marketing", "Ecommerce"],
-                    description: `Maz Accessories is a small business, supplier of Headwear to High street businesses, building brand around british headwears`,
-                    highlight: [
-                        `Development and migration of E-commerce website in Magento using PHP, Javascript, jQuery, HTML5.`,
-                        `Advised and Implemented multi brand Web app with central control`,
-                        `Troubleshooting Magento Plugin and Dependencies`,
-                        `Implemented Inventory Management to forecast sales and supply-chain.`,
-                        `coordinated team of web developers and designers to drive the reach of the business through SEO and Email Marketing`,
-
-                    ]
-                },
-                {
                     title: "Software Engineer",
                     company: "Zeteq Systems",
                     company_url: "https://zeteq.com/",
@@ -151,9 +133,26 @@ class About extends React.Component {
                 }
 
             ],
-            education:[{
-                institute: "International Islamic University Chittagong"
-            }]
+            education: [
+                {
+                    institute: "International Islamic University Chittagong",
+                    degree: "BSc. in Computer science & engineering",
+                    start: "September 2009",
+                    end: "September 2013",
+                    key_courses: ["Artificial Intelligence", "Pattern Recognition and Image Processing", "Algorithms", "Distributed Database"],
+                    activities: [
+                        "Member of leading programming team in the university which participated in numerous national and regional programming contests",
+                        "Elected general secretary of the Computer Club which arranges coding bootcamps for new coders and IT festivals."
+                    ]
+                },
+                {
+                    institute: "Queen Mary University of London",
+                    degree: "MSc. in Computer vision (unfinished)",
+                    start: "September 2014",
+                    end: " February 2015",
+                    key_courses: ["Machine Learning", "Emerging Topics in Computer Vision"]
+                }
+            ]
         }
 
         return {bio};

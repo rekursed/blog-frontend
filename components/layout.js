@@ -4,7 +4,7 @@ import Navbar from "./navbar";
 function Layout({children}) {
     return (<div>
             <Navbar></Navbar>
-            <div className={"container "+ styles.content}>{children}</div>
+            <div className={`container ${styles.container} ${styles.content}`}>{children}</div>
         </div>
     );
 }

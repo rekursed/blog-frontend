@@ -7,7 +7,7 @@ class Navbar extends React.Component {
 
     render() {
         return (
-            <div className={`container nav-container`}>
+            <div className={`nav-container`}>
                 <nav className={"navbar " + navStyles.nav} role="navigation" aria-label="main navigation">
                     <div className="navbar-brand">
                         <Link href={"/"}><a className="navbar-item">

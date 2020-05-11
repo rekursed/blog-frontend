@@ -1,0 +1,13 @@
+.cardcontainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 2rem;
+  background: radial-gradient(circle at 20% 20%, #5183f5 25%,#4640ff 100%);
+  color: ghostwhite;
+  //background: -moz-linear-gradient(90deg, rgba(68,0,255,1) 0%, rgba(9,9,121,1) 39%, rgba(68,0,255,1) 100%);
+  //background: -webkit-linear-gradient(90deg, rgba(68,0,255,1) 0%, rgba(9,9,121,1) 39%, rgba(68,0,255,1) 100%);
+  //background: linear-gradient(90deg, rgba(68,0,255,1) 0%, rgba(9,9,121,1) 39%, rgba(68,0,255,1) 100%);
+  //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4400ff",endColorstr="#4400ff",GradientType=1);
+}
