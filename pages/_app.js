@@ -4,7 +4,7 @@ import "../styles/prism.css";
 import React from "react";
 
 
-import {wrapper} from '../store'
+import {wrapper} from '../store/store'
 
 
 const WrappedApp = ({Component, pageProps}) => {
