@@ -1,10 +1,11 @@
 import './../styles/global.scss'
 import "../styles/prism.css";
+import thunk from 'redux-thunk'
 // export default function App({ Component, pageProps }) {
 //     return <Component {...pageProps} />
 // }
 import React from "react";
-import {createStore} from "redux";
+import {applyMiddleware, createStore} from "redux";
 import {Provider} from "react-redux";
 import App from "next/app";
 import withRedux from "next-redux-wrapper";
@@ -28,7 +29,7 @@ import rootReducer from './../reducers'
  * @param {string} options.storeKey The key that will be used to persist the store in the browser's `window` object for safe HMR
  */
 const makeStore = (initialState, options) => {
-    return createStore(rootReducer, initialState);
+    return createStore(rootReducer, initialState, applyMiddleware(thunk));
 };
 
 class MyApp extends App {

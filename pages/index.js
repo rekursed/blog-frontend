@@ -61,6 +61,8 @@ class Home extends React.Component {
                                         <div className="hero-body">
                                             <div className="container">
                                                 <ProfileBadge></ProfileBadge>
+                                                <div className="github-widget" data-username="rekursed"></div>
+                                                <script src="https://unpkg.com/github-card@1.2.1/dist/widget.js"></script>
                                             </div>
                                         </div>
                                     </div>
