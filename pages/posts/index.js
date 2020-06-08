@@ -2,7 +2,7 @@ import React, {useEffect} from "react";
 import {connect} from "react-redux";
 import Layout from "../../components/layout";
 import Post from "../../components/blog/post";
-import {fetchPosts} from "../../actions/postsActions";
+import {fetchPosts} from "../../store/actions/postsActions";
 
 
 const PostsPage = ({dispatch, loading, posts, hasErrors}) => {

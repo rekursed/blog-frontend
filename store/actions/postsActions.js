@@ -3,7 +3,7 @@ import axios from 'axios'
 export const GET_POSTS = 'GET POSTS'
 export const GET_POSTS_SUCCESS = 'GET_POSTS_SUCCESS'
 export const GET_POSTS_FAILURE = 'GET_POSTS_FAILURE'
-import config from "../config";
+import config from "../../config";
 
 export const getPosts = () => ({
     type: GET_POSTS,

@@ -1,6 +1,6 @@
 import {applyMiddleware, createStore} from 'redux';
 import {createWrapper, HYDRATE} from 'next-redux-wrapper';
-import rootReducer from '../reducers'
+import rootReducer from './reducers'
 import thunk from "redux-thunk";
 // // create your reducer
 // const reducer = (state = {tick: 'init'}, action) => {
